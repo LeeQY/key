@@ -14,5 +14,5 @@ import (
 	"github.com/LeeQY/key"
 )
 
-realKey, err := MakeKey(&key, &prefix)
+realKey, err := key.MakeKey(&key, &prefix)
 ```
